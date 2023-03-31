@@ -93,8 +93,15 @@
               <p><span> Country : </span>India</p>
             </div>
             <div class="box">
-              <a href="#" class="btn">Download CV</a>
-              <a href="#" class="btn">Hire Me</a>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1GHxZW0FYGcHu8QK3XNrsiO9lvJrpIkfH/view"
+                class="btn"
+                >Resume</a
+              >
+              <a href="./pdf/Debabrata_Hembram_Resume.pdf" download class="btn"
+                ><i class="fa-solid fa-download"></i
+              ></a>
             </div>
           </div>
         </div>
@@ -391,5 +398,11 @@
     <!-- Footer section end  -->
 
     <script src="./index.js"></script>
+    <script>
+      const sendToDrive = () => {
+        window.location.href =
+          "https://drive.google.com/file/d/1GHxZW0FYGcHu8QK3XNrsiO9lvJrpIkfH/view";
+      };
+    </script>
   </body>
 </html>
