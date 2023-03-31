@@ -4,9 +4,392 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <!-- font awsome cdn links  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- custom css  -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Debabrata Hembram Portfolio</title>
   </head>
   <body>
-    <h1>Hello, Debabrata</h1>
+    <!-- custom-cursor  -->
+    <div class="cursor_1"></div>
+    <div class="cursor_2"></div>
+
+    <!-- Menu-bar  -->
+    <div id="menu-bars" class="fa fa-bars"></div>
+
+    <!-- Left-Sidebar  -->
+    <header>
+      <a href="#" class="logo"><span>Debabrata</span> Hembram</a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#service">Skills</a>
+        <a href="#portfolio">portfolio</a>
+        <a href="#experience">experience</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="follow">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </header>
+
+    <!-- Home section starts  -->
+    <section id="home" class="home">
+      <div class="content">
+        <span class="hi">Hi there...</span>
+        <h3>I am <span>Debabrata Hembram</span></h3>
+        <p class="info">An Aspiring Full stack Developer</p>
+        <!-- <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+          reprehenderit, ducimus architecto est quis vitae cum natus a
+          consequatur eius.
+        </p> -->
+        <a href="#about" class="btn">About Me</a>
+      </div>
+
+      <div class="image">
+        <img src="./images/me.png" alt="" />
+      </div>
+    </section>
+    <!-- Home section end  -->
+
+    <!-- About section starts  -->
+    <section id="about" class="about">
+      <h1 class="heading">About <span>me</span></h1>
+      <div class="row_1">
+        <div class="image">
+          <img src="./images/about-me.png" alt="Debabrata Hembram" />
+        </div>
+        <div class="content">
+          <!-- <h3>My Name is Debabrata Hembram & I am a Web Developer</h3> -->
+          <p>
+            A dynamic and technically-rich Web Developer with proficiency in
+            React, Node.js, Express, and MongoDB, dedicated to delivering
+            high-quality web applications. Additionally, strong problem-solving
+            skills will enable quickly identifying and addressing issues during
+            development in a team environment, ensuring the timely delivery of
+            complex web projects from start to finish, driving the company's
+            success.
+          </p>
+          <div class="box_container">
+            <div class="box">
+              <p><span> Age : </span> 23</p>
+              <p><span> Gender : </span> Male</p>
+              <p><span> Language : </span> English, Hindi, Bengali</p>
+              <p><span> Profession : </span> MERN: Full Stack Developer</p>
+            </div>
+            <div class="box">
+              <p><span> Freelance : </span> available</p>
+              <p><span> Phone : </span> +91-9382209569</p>
+              <p><span> Email : </span> debabratahem369@gmail.com</p>
+              <p><span> Country : </span>India</p>
+            </div>
+            <div class="box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <h1 class="heading"><span>My</span> Skills</h1> -->
+      <div class="row_2">
+        <!-- <div class="skills">
+          <div class="progress">
+            <h3>Web Design <span> 95% </span></h3>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="progress">
+            <h3>Web Development <span> 80% </span></h3>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="progress">
+            <h3>UI Design <span> 75% </span></h3>
+            <div class="bar"><span></span></div>
+          </div>
+          <div class="progress">
+            <h3>SEO <span> 85% </span></h3>
+            <div class="bar"><span></span></div>
+          </div>
+        </div> -->
+        <div class="box_container">
+          <div class="box">
+            <h3>1200+</h3>
+            <p>Hours of Practical Coding</p>
+          </div>
+          <div class="box">
+            <h3>300+</h3>
+            <p>Hours of Data Structures & Algorithms</p>
+          </div>
+          <div class="box">
+            <h3>100+</h3>
+            <p>Hours of Soft Skill Development</p>
+          </div>
+          <div class="box">
+            <h3>3+</h3>
+            <p>Major Projects</p>
+          </div>
+          <div class="box">
+            <h3>50+</h3>
+            <p>Mini Projects</p>
+          </div>
+          <div class="box">
+            <h3>330+</h3>
+            <p>Contributions in the last year</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section end  -->
+
+    <!-- Service section starts  -->
+    <section id="service" class="service">
+      <h2 class="heading"><span>My</span> Skills</h2>
+      <div class="box_container">
+        <div class="box">
+          <!-- <i class="fas fa-code"></i> -->
+          <img src="./images/html.png" alt="" />
+          <h3>HTML</h3>
+          <!-- <h3>Web Design</h3> -->
+          <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Praesentium, aliquid.
+          </p> -->
+        </div>
+        <div class="box">
+          <!-- <i class="fas fa-code"></i> -->
+          <img src="./images/css.png" alt="" />
+          <h3>CSS</h3>
+        </div>
+        <div class="box">
+          <img src="./images/js.png" alt="" />
+          <h3>JavaScript</h3>
+        </div>
+        <div class="box">
+          <img src="./images/react.png" alt="" />
+          <h3>React</h3>
+        </div>
+        <div class="box">
+          <img src="./images/redux.png" alt="" />
+          <h3>Redux</h3>
+        </div>
+        <div class="box">
+          <img src="./images/git.png" alt="" />
+          <h3>Git/Github</h3>
+        </div>
+        <div class="box">
+          <img src="./images/mongodb.png" alt="" />
+          <h3>MongoDB</h3>
+        </div>
+        <div class="box">
+          <img src="./images/express.png" alt="" />
+          <h3>Express</h3>
+        </div>
+        <div class="box">
+          <img src="./images/nodejs.png" alt="" />
+          <h3>Node.JS</h3>
+        </div>
+        <div class="box">
+          <img src="./images/postman.png" alt="" />
+          <h3>Postman</h3>
+        </div>
+        <div class="box">
+          <img src="./images/chakra-ui.png" alt="" />
+          <h3>Chakra UI</h3>
+        </div>
+        <div class="box">
+          <img src="./images/nextjs.png" alt="" />
+          <h3>Next.JS</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Service section end  -->
+
+    <!-- Experience section starts  -->
+    <section class="experience" id="experience">
+      <h2 class="heading"><span>My</span> Experience</h2>
+      <div class="box_container">
+        <div class="box">
+          <div class="content">
+            <span>2015 - 2016</span>
+            <h3>Front-end Development</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              autem.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span>2017 - 2018</span>
+            <h3>Front-end Development</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              autem.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span>2017 - 2018</span>
+            <h3>Front-end Development</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              autem.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span>2017 - 2018</span>
+            <h3>Front-end Development</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              autem.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span>2017 - 2018</span>
+            <h3>Front-end Development</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              autem.
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="content">
+            <span>2017 - 2018</span>
+            <h3>Front-end Development</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+              autem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experience section end  -->
+
+    <!-- Portfolio section starts  -->
+    <section id="portfolio" class="portfolio">
+      <h2 class="heading"><span>My</span> Portfolio</h2>
+      <div class="box_container">
+        <div class="box">
+          <img src="./images/kfc-pro.png" alt="Kfc_clone" />
+          <h3>Project 01</h3>
+          <div class="icons">
+            <a
+              target="_blank"
+              href="https://my-kfc-clone-2.netlify.app/index.html"
+              ><i class="fa fa-eye" aria-hidden="true"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/debabrata-pw08-429/KFC-Clone"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/koo-pro.png" alt="" />
+          <h3>Project 02</h3>
+          <div class="icons">
+            <a target="_blank" href="https://kooapp-clone.netlify.app/"
+              ><i class="fa fa-eye" aria-hidden="true"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/debabrata-pw08-429/kooapp-clone"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/bebo-pro.png" alt="" />
+          <h3>Project 03</h3>
+          <div class="icons">
+            <a
+              target="_blank"
+              href="https://wondrous-caramel-03094c.netlify.app/"
+              ><i class="fa fa-eye" aria-hidden="true"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/debabrata-pw08-429/Beautybebo"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio section end  -->
+
+    <!-- Contact section starts  -->
+    <section id="contact" class="contact">
+      <h2 class="heading"><span>Contact </span> Me</h2>
+      <div class="icons_container">
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>debabratahem369@gmail.com</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <p>+91-9382209569</p>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>Address</h3>
+          <p>Kharagpur, West Bengal</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <form action="">
+          <input type="text" class="box" placeholder="name" />
+          <input type="email" class="box" placeholder="email" />
+          <input type="number" class="box" placeholder="number" />
+          <textarea
+            name=""
+            id=""
+            cols="10"
+            rows="10"
+            placeholder="message"
+          ></textarea>
+          <input type="button" class="btn" value="send message" />
+        </form>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118099.26233467403!2d87.19245834593741!3d22.33088905391549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1d44143b5c99a1%3A0xf37ae5b844180ec4!2sKharagpur%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1680259702810!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Contact section end  -->
+
+    <!-- Footer section starts  -->
+    <footer class="footer">
+      Created by <span>Mr. Debabrata Hembram</span> | all rights reserved!
+    </footer>
+    <!-- Footer section end  -->
+
+    <script src="./index.js"></script>
   </body>
 </html>
