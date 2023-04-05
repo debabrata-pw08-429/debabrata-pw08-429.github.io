@@ -171,10 +171,15 @@ header .follow a:hover {
 }
 
 .home .image {
-  flex: 1 1 40rem;
+  flex: 1 1 35rem;
+  border-radius: 25px;
+  background-color: transparent;
 }
 .home .image img {
-  width: 80%;
+  width: 90%;
+  border-radius: 25px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .home .content {
@@ -626,6 +631,16 @@ header .follow a:hover {
   margin-top: 5rem;
 }
 
+.home .image .follow a {
+  display: none;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin: 0.7rem;
+}
+.home .image .follow a:hover {
+  color: red;
+}
+
 /* Responsive Styles */
 @media (max-width: 991px) {
   html {
@@ -666,5 +681,15 @@ header .follow a:hover {
 
   .experience .box_container .box {
     padding-right: 0;
+  }
+
+  .home .image .follow a {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--main-color);
+    margin: 0.7rem;
+  }
+  .home .image .follow a:hover {
+    color: red;
   }
 }
