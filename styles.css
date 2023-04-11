@@ -631,7 +631,7 @@ header .follow a:hover {
   margin-top: 5rem;
 }
 
-.home .image .follow a {
+/* .home .image .follow a {
   display: none;
   font-size: 2.5rem;
   color: var(--main-color);
@@ -639,6 +639,16 @@ header .follow a:hover {
 }
 .home .image .follow a:hover {
   color: red;
+} */
+
+.home .follow a {
+  font-size: 3rem;
+  color: black;
+  margin: 0.7rem;
+  margin-top: 3rem;
+}
+.home .follow a:hover {
+  color: var(--main-color);
 }
 
 /* Responsive Styles */
@@ -683,13 +693,14 @@ header .follow a:hover {
     padding-right: 0;
   }
 
-  .home .image .follow a {
+  /* .home .image .follow a {
     display: inline-block;
     font-size: 2.5rem;
     color: var(--main-color);
     margin: 0.7rem;
-  }
-  .home .image .follow a:hover {
-    color: red;
+  } */
+
+  .home .image {
+    margin-top: -5rem;
   }
 }
