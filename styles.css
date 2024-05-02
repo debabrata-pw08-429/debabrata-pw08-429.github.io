@@ -20,6 +20,10 @@
   line-height: 1.5;
 }
 
+.about_text {
+  text-transform: none;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
